@@ -1,0 +1,351 @@
+{
+  "desenho": {
+    "N": 73202,
+    "n": 383,
+    "z": 1.959963984540054,
+    "confianca": 0.95,
+    "margem_planejada": 0.05,
+    "p_planejamento": 0.5,
+    "n0": 384.14588206941244,
+    "n_finito_antes_arredondamento": 382.1456969632403,
+    "semente": 2024,
+    "fracao": 0.00523209748367531,
+    "probabilidade_inclusao": 0.00523209748367531,
+    "peso_expansao": 191.12793733681463,
+    "margem_maxima_atingida_aproximada": 0.04994391199646462
+  },
+  "testes": [
+    {
+      "variavel": "fim_semana",
+      "rotulo": "Sinistros no fim de semana",
+      "tipo": "proporcao",
+      "n": 383,
+      "N": 73202,
+      "referencia_2023": 0.3300770297789452,
+      "populacao_2024": 0.3196087538591842,
+      "estimativa": 0.30809399477806787,
+      "diferenca_amostra_referencia": -0.021983035000877338,
+      "erro_amostral_observado": -0.011514759081116321,
+      "diferenca_populacional_historica": -0.010468275919761016,
+      "alpha": 0.05,
+      "hipotese_nula": "p2024 = p2023",
+      "hipotese_alternativa": "p2024 ≠ p2023",
+      "metodo": "Z de uma proporção com FPC sob H0; IC de escore (Wilson) com FPC, ambos aproximados",
+      "estatistica_nome": "Z",
+      "estatistica": -0.917282491840735,
+      "p_valor": 0.358994629464491,
+      "erro_padrao_h0": 0.023965392555093255,
+      "sucessos": 118,
+      "fracassos": 265,
+      "esperados_h0": [
+        126.41950240533602,
+        256.58049759466394
+      ],
+      "condicao_contagens_10": true,
+      "ic95": [
+        0.2640602907155625,
+        0.35591938107206145
+      ],
+      "k_fpc": 0.9947814920561194,
+      "rejeita_h0": false,
+      "ic_cobre_populacao_2024": true,
+      "ic_cobre_referencia_2023": true,
+      "p_holm_sensibilidade": 1.0,
+      "rejeita_holm_sensibilidade": false
+    },
+    {
+      "variavel": "com_morte",
+      "rotulo": "Sinistros com pelo menos uma morte",
+      "tipo": "proporcao",
+      "n": 383,
+      "N": 73202,
+      "referencia_2023": 0.071687867071983,
+      "populacao_2024": 0.07137783120679762,
+      "estimativa": 0.0835509138381201,
+      "diferenca_amostra_referencia": 0.0118630467661371,
+      "erro_amostral_observado": 0.012173082631322482,
+      "diferenca_populacional_historica": -0.00031003586518538184,
+      "alpha": 0.05,
+      "hipotese_nula": "p2024 = p2023",
+      "hipotese_alternativa": "p2024 ≠ p2023",
+      "metodo": "Z de uma proporção com FPC sob H0; IC de escore (Wilson) com FPC, ambos aproximados",
+      "estatistica_nome": "Z",
+      "estatistica": 0.9023228145271858,
+      "p_valor": 0.36688540962442406,
+      "erro_padrao_h0": 0.01314723131804364,
+      "sucessos": 32,
+      "fracassos": 351,
+      "esperados_h0": [
+        27.45645308856949,
+        355.5435469114305
+      ],
+      "condicao_contagens_10": true,
+      "ic95": [
+        0.059855610900087425,
+        0.11547442515604883
+      ],
+      "k_fpc": 0.9947814920561194,
+      "rejeita_h0": false,
+      "ic_cobre_populacao_2024": true,
+      "ic_cobre_referencia_2023": true,
+      "p_holm_sensibilidade": 1.0,
+      "rejeita_holm_sensibilidade": false
+    },
+    {
+      "variavel": "feridos",
+      "rotulo": "Feridos por sinistro",
+      "tipo": "media",
+      "n": 383,
+      "N": 73202,
+      "referencia_2023": 1.1578520201871145,
+      "populacao_2024": 1.1556378241031666,
+      "estimativa": 1.185378590078329,
+      "diferenca_amostra_referencia": 0.02752656989121438,
+      "erro_amostral_observado": 0.029740765975162287,
+      "diferenca_populacional_historica": -0.002214196083947906,
+      "alpha": 0.05,
+      "hipotese_nula": "μ2024 = μ2023",
+      "hipotese_alternativa": "μ2024 ≠ μ2023",
+      "metodo": "t de uma média com erro-padrão de AAS sem reposição; referência t e IC aproximados",
+      "estatistica_nome": "t",
+      "estatistica": 0.4399183500137383,
+      "p_valor": 0.6602450332714866,
+      "erro_padrao": 0.06257199748624886,
+      "dp_amostral": 1.2277742601069843,
+      "graus_liberdade": 382,
+      "ic95": [
+        1.0623499349116703,
+        1.3084072452449875
+      ],
+      "assimetria_amostra": 4.863188247835751,
+      "max_amostra": 14,
+      "p95_amostra": 3.0,
+      "parcela_soma_maior_observacao": 0.030837004405286344,
+      "bootstrap_ic95_sensibilidade": [
+        1.070647138071788,
+        1.315755240085762
+      ],
+      "bootstrap_cobre_referencia": true,
+      "rejeita_h0": false,
+      "ic_cobre_populacao_2024": true,
+      "ic_cobre_referencia_2023": true,
+      "p_holm_sensibilidade": 1.0,
+      "rejeita_holm_sensibilidade": false
+    },
+    {
+      "variavel": "veiculos",
+      "rotulo": "Veículos por sinistro",
+      "tipo": "media",
+      "n": 383,
+      "N": 73202,
+      "referencia_2023": 1.9978160139302896,
+      "populacao_2024": 1.985792737903336,
+      "estimativa": 1.9765013054830287,
+      "diferenca_amostra_referencia": -0.02131470844726091,
+      "erro_amostral_observado": -0.009291432420307277,
+      "diferenca_populacional_historica": -0.012023276026953633,
+      "alpha": 0.05,
+      "hipotese_nula": "μ2024 = μ2023",
+      "hipotese_alternativa": "μ2024 ≠ μ2023",
+      "metodo": "t de uma média com erro-padrão de AAS sem reposição; referência t e IC aproximados",
+      "estatistica_nome": "t",
+      "estatistica": -0.4256580892973769,
+      "p_valor": 0.6705967154276197,
+      "erro_padrao": 0.05007471720423442,
+      "dp_amostral": 0.9825553176403973,
+      "graus_liberdade": 382,
+      "ic95": [
+        1.8780447216598641,
+        2.074957889306193
+      ],
+      "assimetria_amostra": 1.1624028236105464,
+      "max_amostra": 6,
+      "p95_amostra": 4.0,
+      "parcela_soma_maior_observacao": 0.007926023778071334,
+      "bootstrap_ic95_sensibilidade": [
+        1.8774150514773795,
+        2.0755875594886777
+      ],
+      "bootstrap_cobre_referencia": true,
+      "rejeita_h0": false,
+      "ic_cobre_populacao_2024": true,
+      "ic_cobre_referencia_2023": true,
+      "p_holm_sensibilidade": 1.0,
+      "rejeita_holm_sensibilidade": false
+    }
+  ],
+  "resumos": {
+    "populacao_2024": {
+      "fim_semana": {
+        "rotulo": "Sinistros no fim de semana",
+        "tipo": "proporcao",
+        "n": 73202,
+        "estimativa": 0.3196087538591842,
+        "sucessos": 23396,
+        "fracassos": 49806
+      },
+      "com_morte": {
+        "rotulo": "Sinistros com pelo menos uma morte",
+        "tipo": "proporcao",
+        "n": 73202,
+        "estimativa": 0.07137783120679762,
+        "sucessos": 5225,
+        "fracassos": 67977
+      },
+      "feridos": {
+        "rotulo": "Feridos por sinistro",
+        "tipo": "media",
+        "n": 73202,
+        "estimativa": 1.1556378241031666,
+        "soma": 84595,
+        "mediana": 1.0,
+        "dp": 1.254939249857404,
+        "variancia": 1.5748725208326635,
+        "min": 0,
+        "q1": 1.0,
+        "q3": 1.0,
+        "p95": 3.0,
+        "max": 85,
+        "assimetria": 13.922668270635656
+      },
+      "veiculos": {
+        "rotulo": "Veículos por sinistro",
+        "tipo": "media",
+        "n": 73202,
+        "estimativa": 1.985792737903336,
+        "soma": 145364,
+        "mediana": 2.0,
+        "dp": 1.0835637180002997,
+        "variancia": 1.174110330966633,
+        "min": 1,
+        "q1": 1.0,
+        "q3": 2.0,
+        "p95": 4.0,
+        "max": 26,
+        "assimetria": 2.904295358856934
+      }
+    },
+    "amostra_2024": {
+      "fim_semana": {
+        "rotulo": "Sinistros no fim de semana",
+        "tipo": "proporcao",
+        "n": 383,
+        "estimativa": 0.30809399477806787,
+        "sucessos": 118,
+        "fracassos": 265
+      },
+      "com_morte": {
+        "rotulo": "Sinistros com pelo menos uma morte",
+        "tipo": "proporcao",
+        "n": 383,
+        "estimativa": 0.0835509138381201,
+        "sucessos": 32,
+        "fracassos": 351
+      },
+      "feridos": {
+        "rotulo": "Feridos por sinistro",
+        "tipo": "media",
+        "n": 383,
+        "estimativa": 1.185378590078329,
+        "soma": 454,
+        "mediana": 1.0,
+        "dp": 1.2277742601069843,
+        "variancia": 1.507429633781253,
+        "min": 0,
+        "q1": 1.0,
+        "q3": 1.0,
+        "p95": 3.0,
+        "max": 14,
+        "assimetria": 4.863188247835751
+      },
+      "veiculos": {
+        "rotulo": "Veículos por sinistro",
+        "tipo": "media",
+        "n": 383,
+        "estimativa": 1.9765013054830287,
+        "soma": 757,
+        "mediana": 2.0,
+        "dp": 0.9825553176403973,
+        "variancia": 0.965414952223422,
+        "min": 1,
+        "q1": 1.0,
+        "q3": 2.0,
+        "p95": 4.0,
+        "max": 6,
+        "assimetria": 1.1624028236105464
+      }
+    },
+    "referencia_2023": {
+      "fim_semana": {
+        "rotulo": "Sinistros no fim de semana",
+        "tipo": "proporcao",
+        "n": 67766,
+        "estimativa": 0.3300770297789452,
+        "sucessos": 22368,
+        "fracassos": 45398
+      },
+      "com_morte": {
+        "rotulo": "Sinistros com pelo menos uma morte",
+        "tipo": "proporcao",
+        "n": 67766,
+        "estimativa": 0.071687867071983,
+        "sucessos": 4858,
+        "fracassos": 62908
+      },
+      "feridos": {
+        "rotulo": "Feridos por sinistro",
+        "tipo": "media",
+        "n": 67766,
+        "estimativa": 1.1578520201871145,
+        "soma": 78463,
+        "mediana": 1.0,
+        "dp": 1.2284830606913106,
+        "variancia": 1.5091706304054902,
+        "min": 0,
+        "q1": 1.0,
+        "q3": 1.0,
+        "p95": 3.0,
+        "max": 62,
+        "assimetria": 11.570904919692337
+      },
+      "veiculos": {
+        "rotulo": "Veículos por sinistro",
+        "tipo": "media",
+        "n": 67766,
+        "estimativa": 1.9978160139302896,
+        "soma": 135384,
+        "mediana": 2.0,
+        "dp": 1.217073960498434,
+        "variancia": 1.4812690253233434,
+        "min": 1,
+        "q1": 1.0,
+        "q3": 2.0,
+        "p95": 4.0,
+        "max": 131,
+        "assimetria": 19.913134767645065
+      }
+    }
+  },
+  "fontes": {
+    "catalogo": "https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos/dados-abertos-da-prf",
+    "dicionario": "https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos/dicionario-acidentes",
+    "2024": "https://drive.google.com/file/d/14lB0vqMFkaZj8HZ44b0njYgxs9nAN8KO/view",
+    "2023": "https://drive.google.com/file/d/1-WO3SfNrwwZ5_l7fRTiwBKRw7mi1-HUq/view",
+    "dicionario_pdf": "https://drive.google.com/file/d/11pXLw_0D0hHVS8fiC8cv2dPX39vpuOH1/view"
+  },
+  "bootstrap": {
+    "B": 10000,
+    "semente": 202405,
+    "ordem_variaveis": [
+      "feridos",
+      "veiculos"
+    ],
+    "metodo": "Percentil empírico centrado/reescalado; diagnóstico aproximado, não inferência primária"
+  },
+  "ambiente": {
+    "python": "3.14.7",
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "scipy": "1.18.1"
+  }
+}

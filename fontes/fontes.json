@@ -1,0 +1,30 @@
+{
+  "data_obtencao": "2026-11-05",
+  "catalogo": "https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos/dados-abertos-da-prf",
+  "arquivos": [
+    {
+      "ano": 2024,
+      "arquivo": "datatran2024.zip",
+      "bytes": 3783609,
+      "sha256": "905dac836867297b261e4edefff6cdb470809814e7e1796b3f2f57517099d165",
+      "url": "https://drive.google.com/file/d/14lB0vqMFkaZj8HZ44b0njYgxs9nAN8KO/view",
+      "agrupamento": "por ocorrência"
+    },
+    {
+      "ano": 2023,
+      "arquivo": "datatran2023.zip",
+      "bytes": 3397281,
+      "sha256": "b233c47d16b3980a6692472f9fe1bbab57698700fbb918d22628a5c0a382d985",
+      "url": "https://drive.google.com/file/d/1-WO3SfNrwwZ5_l7fRTiwBKRw7mi1-HUq/view",
+      "agrupamento": "por ocorrência"
+    }
+  ],
+  "dicionario": {
+    "pagina_oficial": "https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos/dicionario-acidentes",
+    "url": "https://drive.google.com/file/d/11pXLw_0D0hHVS8fiC8cv2dPX39vpuOH1/view",
+    "arquivo": "dicionario_ocorrencias_2017.pdf",
+    "sha256": "382616dc08c1875ca475c0792c2cb4f4050170f0f28772200e39d9c26393c43e",
+    "paginas": 4,
+    "versao": "Setembro de 2017, registros a partir de janeiro de 2017"
+  }
+}
